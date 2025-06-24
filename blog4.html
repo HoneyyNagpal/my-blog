@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mastering Responsive Design</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Honey's Blog</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="blog4.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Mastering Responsive Design</h1>
+    <img class="blog-feature-img" src="images/blog4.jpg" alt="Responsive Design" style="width: 100%; border-radius: 10px; margin: 20px 0;">
+    <p>In today’s world, people access websites on a huge variety of devices — from widescreen monitors to tablets and smartphones. Responsive design ensures your website looks great and functions well on all screen sizes, providing a seamless experience for every user. Let’s dive into the key principles and practical tips to master responsive design.</p>
+
+    <h2>What is Responsive Design?</h2>
+    <p>Responsive design is an approach to web development where your website’s layout and elements automatically adapt to different screen sizes and resolutions. Instead of building separate sites for desktop and mobile, you use flexible layouts and media queries to handle everything in one codebase.</p>
+
+    <h2>Why Responsive Design Matters</h2>
+    <p>Users expect websites to look professional and work flawlessly, no matter what device they use. A responsive site keeps visitors engaged and reduces bounce rates. Moreover, search engines like Google favor mobile-friendly sites, which improves your SEO ranking and helps attract more traffic.</p>
+
+    <h2>Key Techniques for Responsive Design</h2>
+    <h3>Use a Flexible Grid Layout</h3>
+    <p>Instead of fixed-width layouts, use relative units like percentages, <code>em</code>, or <code>rem</code>. CSS Grid and Flexbox are excellent tools for creating layouts that automatically adjust based on the available screen space.</p>
+
+    <h3>Apply Media Queries</h3>
+    <p>Media queries let you apply different CSS rules at different viewport widths. This helps you tweak the design for specific breakpoints, like mobile phones, tablets, or large desktops. Common breakpoints include 480px, 768px, and 1024px, but choose breakpoints based on your content, not just device size.</p>
+
+    <h3>Responsive Images</h3>
+    <p>Large images can slow down mobile pages and waste data. Use responsive images by setting the <code>max-width: 100%</code> and <code>height: auto</code>. Consider using <code>srcset</code> to serve different image sizes depending on the device’s screen resolution.</p>
+
+    <h3>Flexible Typography</h3>
+    <p>Use relative units like <code>em</code> or <code>rem</code> for font sizes instead of pixels. This makes your text scale smoothly with the rest of your layout. Make sure headings, body text, and buttons remain legible on smaller screens.</p>
+
+    <h2>Practical Tips for Better Responsive Design</h2>
+    <ul>
+      <li><strong>Design Mobile-First:</strong> Start designing for the smallest screens first, then enhance the layout for larger screens. This ensures core content always fits.</li>
+      <li><strong>Test on Real Devices:</strong> Use your own phone, tablet, and desktop to check how your site looks and behaves. Browser developer tools can simulate devices but real-world testing is best.</li>
+      <li><strong>Keep Touch in Mind:</strong> Make buttons large enough for easy tapping. Avoid hover-only interactions — they don’t work well on touchscreens.</li>
+      <li><strong>Optimize Load Times:</strong> Compress images, minimize code, and use caching to speed up your site, especially for mobile users on slower connections.</li>
+    </ul>
+
+    <h2>Common Mistakes to Avoid</h2>
+    <p>Many beginners forget to test layouts on all breakpoints or rely too heavily on fixed sizes. Avoid setting absolute widths or heights wherever possible — let your content flow naturally. Also, check for overlapping elements and hidden content when resizing the browser window.</p>
+
+    <h2>Tools and Resources</h2>
+    <p>Use browser tools like Chrome DevTools or Firefox Responsive Design Mode to preview how your site behaves on various screens. Frameworks like Bootstrap or Tailwind CSS provide pre-made responsive components, making it faster to build flexible layouts.</p>
+
+    <h2>Conclusion</h2>
+    <p>Responsive design is not just a trend — it’s a necessity for any modern website. By mastering responsive layouts, flexible media, and smart breakpoints, you ensure your visitors have a smooth experience, no matter where or how they access your site. Keep learning, testing, and refining your design, and your website will stand out on every screen!</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Honey Nagpal | All rights reserved</p>
+  <
