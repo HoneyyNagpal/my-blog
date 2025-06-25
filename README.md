@@ -3,7 +3,8 @@ This is a simple personal blog website. It is designed to be clean, responsive, 
 
 Pages
 
- -Home (`index.html`)
+
+- Home (`index.html`)
   Contains a welcome message and a grid of featured blog posts.
 
 - About (`about.html`) 
